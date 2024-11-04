@@ -33,8 +33,9 @@ function FAQ() {
 
     return (
         <>
+        <div className="faq-container">
             <h1>Frequently asked questions</h1>
-            <div className="faq-container">
+            
             {faqs.map((faq, index) => (
                 <div 
                     key={index} 
